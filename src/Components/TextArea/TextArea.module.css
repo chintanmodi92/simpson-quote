@@ -1,0 +1,58 @@
+.quote {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.4rem;
+    margin: 0 50px;
+    color: var(--bgColor);
+
+}
+
+.author {
+    text-align: right;
+    margin: 0 50px;
+    color: var(--bgColor);
+}
+
+
+.tweet {
+    text-decoration: none;
+    background-color: #2a2a2a;
+    color: var(--bgColor);
+    border: 2px solid var(--bgColor);
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+
+}
+
+.tweet:hover {
+    background-color: var(--bgColor);
+    color: #2a2a2a;
+    border: 2px solid var(--bgColor);
+}
+
+.btn {
+    background-color: #2a2a2a;
+    color: var(--bgColor);
+    border: 2px solid var(--bgColor);
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+
+}
+
+.btn:hover {
+    background-color: var(--bgColor);
+    color: #2a2a2a;
+    border: 2px solid var(--bgColor);
+}
+
